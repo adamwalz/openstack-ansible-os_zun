@@ -176,7 +176,7 @@ zun_kuryr_service_port: 23750
 zun_service_description: "Zun Compute Service"
 zun_service_publicuri: "{{ zun_service_publicuri_proto }}://{{ external_lb_vip_address }}:{{ zun_service_port }}"
 zun_service_publicurl: "{{ zun_service_publicuri }}"
-zun_service_adminuri: "{{ zun_service_adminuri_proto }}//{{ internal_lb_vip_address }}:{{ zun_service_port }}"
+zun_service_adminuri: "{{ zun_service_adminuri_proto }}://{{ internal_lb_vip_address }}:{{ zun_service_port }}"
 zun_service_adminurl: "{{ zun_service_adminuri }}"
 zun_service_internaluri: "{{ zun_service_internaluri_proto }}://{{ internal_lb_vip_address }}:{{ zun_service_port }}"
 zun_service_internalurl: "{{ zun_service_internaluri }}"
